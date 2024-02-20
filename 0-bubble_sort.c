@@ -1,4 +1,5 @@
 #include "sort.h"
+
 /**
 *bubble_sort - func to sort an array of elements in ascending order
 *@array: an array of integers to sort
@@ -17,7 +18,8 @@ for (j = 0; j < size - i - 1; j++)
 {
 if (array[j] > array[j + 1])
 {
-int temp = array[j];
+int temp;
+temp = array[j];
 array[j] = array[j + 1];
 print_array (array, size);
 array[j + 1] = temp;

@@ -3,6 +3,7 @@
 *bubble_sort - func to sort an array of elements in ascending order
 *@array: an array of integers to sort
 *@size: The size of the array
+
 */
 void bubble_sort(int *array, size_t size)
 {

@@ -1,7 +1,8 @@
 #include "sort.h"
 /**
 *selection_sort - func that sort in selection sort
-*@array: array that contains the element
+*@array: array that contains the element.
+*@size: size of the array
 **/
 void selection_sort(int *array, size_t size)
 {

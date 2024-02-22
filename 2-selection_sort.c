@@ -10,6 +10,8 @@ int temp;
 size_t i;
 size_t j;
 int min;
+if (array == NULL || size < 2)
+return;
 for (i = 0; i < size - 1; i++)
 {
 min = i;
